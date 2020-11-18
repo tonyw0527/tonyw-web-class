@@ -12,6 +12,13 @@
 - M: mongoDB, E: Express, R: React, N: Node.js
 - Package Manager는 Yarn을 사용합니다.
 
+## 강좌 순서
+- 00.hello-command
+- 01.hello-react
+- 02.hello-express
+- 03.hello-fullstack
+- 04.hello-mongodb
+
 ## 용어 소개
 - MongoDB : 데이터베이스(DB)의 한 종류로 SQL DB(오라클, mysql 등)가 아닌 NOSQL DB입니다.
 - DB : 데이터 베이스는 수많은 데이터를 효율적으로 관리하도록 도와주는 데이터 저장소입니다.
