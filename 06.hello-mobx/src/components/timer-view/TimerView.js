@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import { observer } from 'mobx-react';
-import { useTimerStore } from '../../states/timer/timerContext';
+import { observer } from 'mobx-react-lite';
+import { useTimerStore } from '../../stores/timerStore';
 
 const TimerView = observer(() =>{
     const timerStore = useTimerStore();
@@ -18,6 +18,7 @@ const TimerView = observer(() =>{
     return (
         <>
             <h1>{timerStore.testStr}</h1>
+            <h2>TimerView</h2>
             <span>Seconds passed: {timerStore.secondsPassed}</span>
             <div>
                 <span>Converted to minutesTime {timerStore.minutesTime}</span>

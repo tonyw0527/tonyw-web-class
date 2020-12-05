@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { TimerProvider } from './stores/timerStore';
+import { TestProvider } from './stores/testStore';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <TimerProvider>
+          <TestProvider>
+            <App />
+          </TestProvider>
+      </TimerProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
