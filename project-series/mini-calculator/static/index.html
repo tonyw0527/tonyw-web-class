@@ -1,0 +1,46 @@
+<!-- 최신 스펙인 HTML5로 작성된 문서임을 알려줌 -->
+<!DOCTYPE html> 
+
+<!-- 모든 html 구문을 포괄하는 html 테그 -->
+<html>
+
+  <!-- 사이트의 부가적인 정보들을 포함하는 head 테그 -->
+  <head>
+    <!-- 브라우저 탭에 띄워질 제목 설정 -->
+    <title>미니 계산기</title>
+
+    <!-- CSS 파일을 불러옴 -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <!-- 사용자에게 보여지는 부분을 포함하는 body 테그 -->
+  <body>
+    <div class="container">
+      <header>
+        <span>🧑🏼‍💻우젤코딩 첫번째 프로젝트👩🏼‍💻</span>
+        <h1>미니 계산기</h1>
+      </header>
+      <div class="input-box">
+        <input id="num1" type="number" />
+        <input id="num2" type="number" />
+      </div>
+      <div class="result-box">
+        <span id="result_num"></span>
+      </div>
+      <div class="calc-button-box">
+        <button id="add_button" type="button">더하기</button>
+
+        <!-- 과제 - 빼기, 곱하기, 나누기 만들기 -->
+        <!-- <button id="str_button" type="button">빼기</button>
+        <button id="mlt_button" type="button">곱하기</button>
+        <button id="div_button" type="button">나누기</button> -->
+      </div>
+    </div>
+
+    <!-- JAVASCRIPT 파일을 불러옴 -->
+    <!-- HTML 문서는 위에서 아래로 순서대로 컴퓨터가 읽기 때문에 요소들이 모두 생성되고 난 후 마지막 부분에 자바스크립트 파일을 불러온다. -->
+    <!-- 자바스크립트 파일에서 각 요소들을 불러와야하는데 그러려면 요소들이 먼저 생성되어 존재해야겠죠! -->
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+
+</html>

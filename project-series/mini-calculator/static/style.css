@@ -1,0 +1,28 @@
+.container {
+  /* 아래의 4줄을 통해 .container 클래스가 선언된
+  부모 요소 영역안에 있는 모든 자식 요소들을 
+  부모 요소 영역의 정가운데 정렬함 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 300px;
+  height: 300px;
+  background: khaki;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-box {
+  margin-top: 16px;
+}
+
+.calc-button-box {
+  margin-top: 16px;
+}

@@ -8,6 +8,7 @@
 ## 강좌
 
 - Hello-series
+- project-series
 
 ## 용어 소개
 
